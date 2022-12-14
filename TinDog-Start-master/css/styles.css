@@ -1,0 +1,142 @@
+.body{
+    font-family: "Montserrat-black";
+    font-weight: 900;
+}
+h3{
+    font-family: "Montserrat-Bold";
+}
+
+#title{
+    background-color: #4c3282;
+    font-family: "Montserrat-black";
+    font-weight: 900;
+
+    line-height: 1.5;
+    color: white;
+}
+.tit{
+    font-family: "Montserrat-black";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navigation bar*/
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/*buttons dowload*/
+
+.buttons-dowload{
+    margin: 5% 3% 8% 0;
+}
+.title-image{
+    width: 60%;
+    border-radius: 10%;
+    transform: rotate(15deg);
+    
+    
+    
+   
+}
+#features{
+    background-color: #ffffff;
+    padding: 7% 15%;   
+    position: relative;
+    z-index: 1;
+
+}
+.feature-box{
+    text-align: center;
+}
+p{
+    color:#8f8f8f ;
+}
+.icon{
+    color: #5e3ea1;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #3feee6;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: #5e3ea1;
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 50%;
+    margin: 20px;
+}
+#press{
+    background-color: #5e3ea1;
+    text-align: center;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 50px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    text-align: center;
+    padding: 2% 15%;
+}
+#cta{
+    padding: 3% 15%;
+    background-color: #4c3282;
+}
+
+.cta-text{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: "Montserrat-black";
+    font-weight: 900;
+    color: white;
+}
+#footer{
+    padding: 5% 15% 1%;
+}
+.foot{
+    text-align: center;
+    
+}
+@media (max-width: 1028px){
+    .title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        padding: 0% 0% 0% 30%;
+    }
+    .buttons-dowload{
+        margin-left: 50px;
+    }
+}
